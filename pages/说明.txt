@@ -1,0 +1,28 @@
+
+.nuxt: 自动生成
+
+assets : 存放静态资源(文件)
+
+components: 组件
+
+layouts: 布局
+
+middleware: 中间件
+
+
+plugins: js插件
+
+static: 静态资源文件(图片,图标)
+
+store:  Vuex(状态管理)
+
+.editorconfig 编辑工具参数
+
+.eslintrc.js  eslintrc规则文件
+
+nuxt.config.js:  nuxt 配置文件
+
+package.json: 包管理的文件
+
+package-lock.json:
+
