@@ -30,6 +30,8 @@ module.exports = {
   // 插件的形式
   build: {
     loaders: [
+
+      // 配置webpack 图片url打包
       {
         test: /\.(png|jpg?g|gif|svg)$/,
         loader: 'url-loader', // 需要安装url-loader  : npm install url-loader --save
