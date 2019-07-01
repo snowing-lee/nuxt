@@ -29,6 +29,16 @@ module.exports = {
 
   // 插件的形式
   build: {
+    loaders: [
+      {
+        test: /\.(png|jpg?g|gif|svg)$/,
+        loader: 'url-loader', // 需要安装url-loader  : npm install url-loader --save
+        query: {
+          limit: 10000,
+          name: 'img/[name].[hash].[ext]'
+        }
+      }
+    ],
     /*
     ** Run ESLint on save
     */
