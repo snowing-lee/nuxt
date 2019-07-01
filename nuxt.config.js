@@ -16,6 +16,7 @@ module.exports = {
     ]
   },
 
+  // 全局引用css
   css: ['~assets/css/normailze.css'],
   /*
   ** Customize the progress bar color
