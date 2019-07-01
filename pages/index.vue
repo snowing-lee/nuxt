@@ -9,6 +9,8 @@
 
       <li> <nuxt-link :to="{name:'news',params:{newsId:'220'}}">News</nuxt-link> </li>
       <li> <a href="/news">News</a> </li>
+
+      <li> <nuxt-link :to="{name:'asyData'}">AsyData</nuxt-link> </li>
     </ul>
   </div>
 </template>
