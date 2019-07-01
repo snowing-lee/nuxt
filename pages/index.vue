@@ -11,6 +11,11 @@
       <li> <a href="/news">News</a> </li>
 
       <li> <nuxt-link :to="{name:'asyData'}">AsyData</nuxt-link> </li>
+
+
+      <div class="pageImage">
+        <!--<img src="~static/work.jpg" />-->
+      </div>
     </ul>
   </div>
 </template>
@@ -26,6 +31,10 @@ export default {
 </script>
 
 <style>
-
+.pageImage {
+  height: 76rem;
+  width: 67rem;
+  background-image:url("~static/work.jpg");
+}
 </style>
 
