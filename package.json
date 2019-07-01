@@ -15,6 +15,12 @@
   "dependencies": {
     "nuxt": "^2.0.0"
   },
+  "config": {
+    "nuxt": {
+      "host": "192.168.0.146",
+      "port": "1818"
+    }
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
