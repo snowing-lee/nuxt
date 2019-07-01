@@ -1,5 +1,9 @@
 <template>
   <div>
+    <!--默认布局: 在layouts/default.vue 下设置-->
+    <p>lalalalal</p>
+
+    
     <nuxt/>
   </div>
 </template>
