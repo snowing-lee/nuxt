@@ -18,6 +18,19 @@ export default {
     validate({params}){
       // 效验参数是数字,返回true正常进入动态页面,返回false进入nuxt准备的404页面
       return  /^\d+$/.test(params.id);
+    },
+    data () {
+      return {
+        title:this.$route.params.title,
+      }
+    },
+    head() {
+      return{
+        title: this.title,
+        meta:[
+          {hid:'description',name:'i am name',content:'i am content'}
+        ]
+      }
     }
 };
 </script>

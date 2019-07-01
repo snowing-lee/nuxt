@@ -10,7 +10,7 @@
 
 
       // nuxt-link 的动态路由写法
-      <li> <nuxt-link :to="{name:'news-id',params:{id:1}}" >News1</nuxt-link></li>
+      <li> <nuxt-link :to="{name:'news-id',params:{id:1,title:'i am title'}}" >News1</nuxt-link></li>
       <li> <a href="/news/1">News1</a></li>
 
 
